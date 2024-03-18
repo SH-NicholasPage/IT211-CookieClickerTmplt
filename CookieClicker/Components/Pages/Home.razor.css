@@ -1,0 +1,44 @@
+﻿table
+{
+    width: 100%;
+    height: 100%;
+    background-image: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.6) 0%, transparent 5%), /* Top shadow */
+        linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, transparent 5%), /* Right shadow */
+        linear-gradient(to top, rgba(0, 0, 0, 0.6) 0%, transparent 5%), /* Bottom shadow */
+        linear-gradient(to left, rgba(0, 0, 0, 0.6) 0%, transparent 5%); /* Left shadow */
+}
+
+.col
+{
+    height: 100%;
+    min-width: 100px;
+    vertical-align: top;
+}
+
+.col.left
+{
+    position: relative;
+    width: 30%;
+    background-image: 
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.8) 0%, transparent 15%), /* Top shadow */
+        linear-gradient(to right, rgba(0, 0, 0, 0.6) 0%, transparent 20%), /* Right shadow */
+        linear-gradient(to top, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0.98) 30%, transparent 50%), /* Bottom shadow */
+        linear-gradient(to left, rgba(0, 0, 0, 0.6) 0%, transparent 20%); /* Left shadow */
+    overflow: hidden;    
+}
+
+.col.middle
+{
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+}
+
+.col.right
+{
+    width: 320px;
+    max-width: 320px;
+    background-color: #00000070;
+    overflow-y: scroll;
+}

@@ -1,0 +1,37 @@
+﻿#upgrades
+{
+    height: 60px;
+}
+
+.buyOrSell
+{
+    color: var(--dim-text);
+    font-family: Tahoma, Arial, sans-serif;
+    font-weight: bold;
+    font-variant-caps: small-caps;
+    background-color: var(--dark-bg);
+    width: 100%;
+    table-layout: fixed;
+}
+
+.buyOrSell .active
+{
+    color: white;
+    text-shadow: var(--text-shadow);
+}
+
+.buyOrSell tr, .buyOrSell td
+{
+    text-align: center;
+}
+
+.buyOrSell td:hover
+{
+    color: white;
+    cursor: pointer;
+}
+
+#buy, #sell
+{
+    line-height: 1.05rem;
+}

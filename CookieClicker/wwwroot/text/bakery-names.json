@@ -1,0 +1,20 @@
+{
+  "adjectives": [
+    "Magic ", "Fantastic ", "Fancy ", "Sassy ", "Snazzy ", "Pretty ", "Cute ", 
+    "Zombie ", "Radical ", "Urban ", "Cool ", "Hella ", "Sweet ", "Awful ", "Double ", 
+    "Triple ", "Turbo ", "Techno ", "Disco ", "Electro ", "Dancing ", "Wonder ", "Mutant ", "Space ", 
+    "Science ", "Medieval ", "Future ", "Captain ", "Bearded ", "Lovely ", "Tiny ", "Big ", "Fire ", 
+    "Water ", "Frozen ", "Metal ", "Plastic ", "Solid ", "Liquid ", "Moldy ", "Shiny ", "Happy ", 
+    "Happy Little ", "Slimy ", "Tasty ", "Delicious ", "Hungry ", "Greedy ", "Lethal ", "Professor ", 
+    "Doctor ", "Power ", "Chocolate ", "Crumbly ", "Choklit ", "Righteous ", "Glorious ", "Mnemonic ", 
+    "Psychic ", "Frenetic ", "Hectic ", "Crazy ", "Royal ", "El ", "Von ", "Mc"
+  ],
+  "nouns": [
+      "Clicker", "Teapot", "Pancake", "Zombie", "Meatball", "Grandma", "Chip", "Cupcake", "Sloth", 
+      "Pirate", "Baker", "Mitten", "Duckling", "Cracker", "Spaceship", "Parrot", "Puppet", "Gizmo", 
+      "Macaroni", "Factory", "Click", "Sock", "Gnome", "Machine", "Dolphin", "Giraffe", "Turtle", 
+      "Zebra", "Cookie", "Biscuit", "Muffin", "Scone", "Sprocket", "Mystery", "Cook", "Portal", 
+      "Experiment", "Monster", "Panic", "Burglar", "Bandit", "Booty", "Potato", "Pizza", "Burger", 
+      "Sausage", "Spaghetti", "Kitten", "Puppy", "Goblin", "Pixie", "Computer", "Ninja", "Robot"
+  ]
+}

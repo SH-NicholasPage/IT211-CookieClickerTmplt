@@ -1,0 +1,104 @@
+﻿*
+{
+    color: white;
+}
+
+#bakeryNameContainer
+{
+    position: absolute;
+    top: 4%;
+    width: 100%;
+    text-align: center;
+}
+
+#bakeryNameText
+{
+    display: inline-block;
+    user-select: none;
+    text-align: center;
+    font-weight: bold;
+    font-size: calc(18px + 0.5vw);
+    color: #D0D0D0;
+    background-color: #00000050;
+    border-radius: 12px;
+    padding: 8px 16px;
+    max-width: 70%;
+}
+
+#bakeryNameText #bakeryName
+{
+    font-weight: bold;
+    font-size: calc(18px + 0.5vw);
+    color: #D0D0D0;
+}
+
+#bakeryNameText:hover, #bakeryNameText:hover *
+{
+    color: white !important;
+    text-shadow: var(--text-shadow); /* Inset text shadow */
+    cursor: pointer;
+}
+
+#cookieInfoContainer
+{
+    position: absolute;
+    width: 100%;
+    top: 11.5%;
+    text-align: center;
+    background-color: #00000050;
+    padding: 4px;
+}
+
+#cookieInfoContainer #cookies
+{
+    font-weight: bold;
+    font-size: calc(18px + 0.5vw);
+}
+
+#cookieInfoContainer #cps
+{
+    font-size: calc(12px + 0.2vw);
+}
+
+#cookieContainer
+{
+    position: absolute;
+    top: 30%;
+    width: 60%;
+    max-width: 256px;
+    left: 50%;
+    transform: translate(-50%, 0);
+}
+
+#cookieContainer #cookie
+{
+    position: absolute;
+    max-width: 100%;
+    border-radius: 100%;
+}
+
+#cookieContainer #cookie:hover
+{
+    scale: 1.08;
+    cursor: pointer;
+}
+
+#cookieContainer .shine
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    scale: 2;
+    opacity: 0.5;
+    z-index: -1;
+    animation-name: rotate-clockwise;
+    animation-duration: 20000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+.shine:nth-child(2)
+{
+    animation-direction: reverse;
+}

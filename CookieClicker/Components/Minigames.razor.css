@@ -1,0 +1,11 @@
+﻿#minigamesHidden
+{
+    min-height: 24px;
+    background-color: var(--dark-bg);
+}
+
+#minigames
+{
+    height: 100%;
+    overflow-y: scroll;
+}
