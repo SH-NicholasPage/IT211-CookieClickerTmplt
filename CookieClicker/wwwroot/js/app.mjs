@@ -1,3 +1,5 @@
+export { randomInteger, randomInt, randomFloat }
+
 /**
  * Generates a random integer between a lower and an upper bound (inclusive).
  * If only one argument is provided, assumes the lower bound is 0.
