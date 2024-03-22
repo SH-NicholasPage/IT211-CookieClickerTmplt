@@ -1,0 +1,14 @@
+﻿.view
+{
+    height: 100%;
+}
+
+.view:not(#minigames-view)
+{
+    background-color: var(--dark-bg);
+}
+
+.view:not(.active)
+{
+    display: none;
+}
