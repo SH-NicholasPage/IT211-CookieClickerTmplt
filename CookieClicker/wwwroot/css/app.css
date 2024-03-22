@@ -66,3 +66,8 @@ body
     background-image: url(../images/panelHorizontal.png);
     background-repeat: repeat;
 }
+
+.fv-small-bold
+{
+    font-variant-caps: small-caps;
+}
